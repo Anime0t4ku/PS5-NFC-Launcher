@@ -5,7 +5,7 @@
 #define UID_CAP 21
 #define TITLE_CAP 10
 #define NAME_CAP 96
-#define VERSION "0.1.32"
+#define VERSION "0.2.0"
 typedef struct { char uid[UID_CAP], title[TITLE_CAP], name[NAME_CAP]; } Mapping;
 typedef struct { Mapping maps[MAX_MAPS]; int count, hold; unsigned removal_ms; } Config;
 typedef struct {
